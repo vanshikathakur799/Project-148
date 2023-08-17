@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Project 148 </title>
+        <script src = 'https://aframe.io/releases/1.0.4/aframe.min.js'></script>
+    </head>
+
+    <body>
+        <a-scene>
+
+            <a-assets>
+                <a-asset-item id = "bench" src = 'assets/bench/scene.gltf'></a-asset-item>
+                <a-asset-item id = "chair" src = 'assets/wooden_bench/scene.gltf'></a-asset-item>
+                <a-asset-item id = "old_man" src = 'assets/oldman_ernest/scene.gltf'></a-asset-item>
+                <a-asset-item id = "dog" src = 'assets/dog/scene.gltf'></a-asset-item>
+                <a-asset-item id = 'lamp' src = 'assets/street_lamp/scene.gltf'></a-asset-item>
+                <a-asset-item id = 'lamp_2' src = 'assets/street_lamp_2/scene.gltf'></a-asset-item>
+                <a-asset-item id = 'business_man' src = 'assets/business_man_standing/scene.gltf'></a-asset-item>
+                <a-asset-item id = 'coffee_mug' src = 'assets/coffee/scene.gltf'></a-asset-item>
+                <a-asset-item id = 'waving_lady' src = 'assets/lady_waving/scene.gltf'></a-asset-item>
+                <a-asset-item id = 'book' src = 'assets/book/scene.gltf'></a-asset-item>
+            </a-assets>
+
+            <a-entity light = 'type: ambient; intensity: 0.8' ></a-entity>
+
+            <a-plane position = '0 0 -4' src = 'grass.png' rotation = '270 0 0'scale = '30 10 1'></a-plane>
+            <a-plane position = '0 5 -9' src = 'sky.png' scale = '30 10 1'></a-plane>
+
+            <a-entity>
+            <a-entity position = '-3 0.4 -6' gltf-model = '#bench' scale = '1 1 1' rotation = '0 90 0' shadow = 'cast: true'></a-entity>
+            <a-entity position = '2 0 -3.5' gltf-model = '#chair' scale = '0.005 0.005 0.005' rotation = '0 180 0'></a-entity>
+            <a-entity position = '0 0 -3' gltf-model = "#old_man" scale = '1 1 1' rotation = '0 90 0 ' shadow = 'cast: true'></a-entity>
+            <a-entity position = '-0.2 0.3 -2.5' gltf-model = '#dog' scale = '1 1 1' rotation = '0 90 0'></a-entity>
+            <a-entity position = '3.3 0 -3.5' gltf-model = '#lamp' scale = '0.05 0.05 0.05'></a-entity>
+            <a-entity position = '-4.8 0 -6' gltf-model = '#lamp_2' scale = '0.8 0.8 0.8'></a-entity>
+            <a-entity position = '-3 0 -4.9' gltf-model = '#business_man' scale = '100 100 100' rotation = '0 45 0'></a-entity>
+            <a-entity position = '-3 0.8 -5.1' gltf-model = '#coffee_mug' scale = '0.01 0.01 0.01'></a-entity>
+            <a-entity position = '-1 0 -6' gltf-model = '#waving_lady' scale = '1 1 1' rotation = '0 -10 0'></a-entity>
+            <a-entity position = '-2.8 0.85 -5.15' gltf-model = '#book' scale = '0.3 0.3 0.3' ></a-entity>
+            </a-entity>
+        </a-scene>
+    </body>
+</html>

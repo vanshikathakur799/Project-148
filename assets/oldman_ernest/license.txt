@@ -1,0 +1,11 @@
+Model Information:
+* title:	OldMan Ernest
+* source:	https://sketchfab.com/3d-models/oldman-ernest-68e22cd993f044e491864ede8416a816
+* author:	grs (https://sketchfab.com/sgrosjean)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "OldMan Ernest" (https://sketchfab.com/3d-models/oldman-ernest-68e22cd993f044e491864ede8416a816) by grs (https://sketchfab.com/sgrosjean) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
